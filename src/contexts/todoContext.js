@@ -17,7 +17,7 @@ export const TodosProvider = ({ children }) => {
       toggleTodo,
       editTodo,
     }),
-    [todos]
+    [todos, addTodo, removeTodo, toggleTodo, editTodo]
   );
 
   return (

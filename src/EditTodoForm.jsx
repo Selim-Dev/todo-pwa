@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Paper, TextField } from '@mui/material';
+import { TextField } from '@mui/material';
 import useInputState from './hooks/useInputState';
 import { TodosContext } from './contexts/todoContext';
 const EditTodoForm = ({ id, title, toggleIsEditing }) => {
