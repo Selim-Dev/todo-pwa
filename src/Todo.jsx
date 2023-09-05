@@ -17,6 +17,7 @@ const Todo = ({ id, title, completed }) => {
   return (
     <>
       <ListItem
+        
         style={{ height: '64px' }}
         secondaryAction={
           isEditing ? (

@@ -4,8 +4,8 @@
     "display": "standalone",
     "scope": "/",
     "start_url": ".",
-    "name": "Ali Todo App",
-    "short_name": "Ali Todo",
+    "name": "Nini Todo App",
+    "short_name": "Nini Todo",
     "description": "A Simple Blazingly Fast Todo App On the Go",
     "icons": [{
             "src": "/icon-192x192.png",

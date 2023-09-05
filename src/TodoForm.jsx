@@ -16,7 +16,7 @@ const TodoForm = () => {
 
   return (
     <div>
-      <Paper style={{ margin: '1rem 0', padding: '0 1rem' }}>
+      <Paper className='bg-red-900 text-red-900' style={{ margin: '1rem 0', padding: '0 1rem' }}>
         <form onSubmit={handleSubmit}>
           <TextField
             margin="normal"

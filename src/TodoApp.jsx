@@ -1,5 +1,4 @@
 import React from 'react';
-import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -20,7 +19,7 @@ const TodoApp = () => {
       >
         <AppBar color="primary" position="static" style={{ height: '64px' }}>
           <Toolbar>
-            <Typography color="inherit">Ali Sleem Todo APP</Typography>
+            <p >NiLi Todo App</p>
           </Toolbar>
           <Grid
             container
@@ -31,6 +30,7 @@ const TodoApp = () => {
               <TodoForm />
               <TodoList />
             </Grid>
+            <p className='bg-red-900 dark:bg-red-900 text-black'>test</p>
           </Grid>
         </AppBar>
       </Paper>
